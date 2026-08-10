@@ -40,9 +40,9 @@ type(29.30)
 <class 'float'>
 
 #Identifiers types:
-    # private identifiers - Starts with _ ( Single underscore)
-    # strong private identifiers - Starts with __ ( Single underscore)
-    # magical method identifiers(starts and ends with __)
+    # Private identifiers -> Starts with _ ( Single underscore)
+    # Strong private identifiers -> Starts with __ ( Double underscore)
+    # Magical method identifiers -> Starts and ends with __
 
 _name = 'Maran'  #Private
 

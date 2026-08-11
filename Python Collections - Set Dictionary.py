@@ -147,12 +147,11 @@ a
 {2, 3, 5, 4}
 b
 {4, 5, 6, 7, 8}
-a.intersection(b) # Common elements GO
-{4, 5}
+
 a.symmetric_difference(b)   # Common elements GO
 {2, 3, 6, 7, 8}
-\
-a.union(b) ## Common elements STAY
+
+a.union(b) # Common elements STAY
 {2, 3, 4, 5, 6, 7, 8}
 #
 

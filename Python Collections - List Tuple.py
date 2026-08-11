@@ -66,22 +66,12 @@ car.clear() #clears the data from the list of car
 car
 []
 car.append('polo') #only one value
-car,exten(['civic','santro','wagonr','creta']) ##Using extend, we can add multiple value in the list by using only one list
-Traceback (most recent call last):
-  File "<pyshell#40>", line 1, in <module>
-    car,exten(['civic','santro','wagonr','creta']) ##Using extend, we can add multiple value in the list by using only one list
-NameError: name 'exten' is not defined. Did you mean: 'exec'?
-car,extend(['civic','santro','wagonr','creta']) ##Using extend, we can add multiple value in the list by using only one list
-Traceback (most recent call last):
-  File "<pyshell#41>", line 1, in <module>
-    car,extend(['civic','santro','wagonr','creta']) ##Using extend, we can add multiple value in the list by using only one list
-NameError: name 'extend' is not defined
-car.extend(['civic','santro','wagonr','creta']) ##Using extend, we can add multiple value in the list by using only one list
+
+car.extend(['civic','santro','wagonr','creta']) #Using extend, we can add multiple value in the list by using only one list
 car
 ['polo', 'civic', 'santro', 'wagonr', 'creta']
-car.extend(['civic','santro'],['wagonr','creta']) #
-KeyboardInterrupt
-car.extend(['ciaz','civic','taigun'],['tiguan','rapid'])# cannot add 2 list values
+
+car.extend(['ciaz','civic','taigun'],['tiguan','rapid'])  # cannot add 2 list values
 Traceback (most recent call last):
   File "<pyshell#44>", line 1, in <module>
     car.extend(['ciaz','civic','taigun'],['tiguan','rapid'])# cannot add 2 list values

@@ -64,7 +64,7 @@ a.add(4)
 a.add(5)
 a
 {2, 3, 4, 5}
-a.union(b) # Provide common in a with all values in b
+a.union(b)
 {2, 3, 4, 5, 6, 7, 8}
 # a.union(b) => It combines all the unique elements from both sets
 

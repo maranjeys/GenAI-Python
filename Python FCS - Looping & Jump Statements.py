@@ -110,8 +110,6 @@ for i in range(1,11,2):
 # 4 - even
 # 5 - odd
 
-for i in range(1,11,1)
-SyntaxError: expected ':'
 for i in range(1,11,1):
     if i%2==0:
         print( i,' - even')
@@ -157,22 +155,6 @@ for i in range(1,11):
 
 prog = ['C','Fortran','Pascal','Java','C++','Python','C#']
 
-for in range prog:
-    
-SyntaxError: invalid syntax
-for i in range(prog):
-    print (i)
-
-    
-Traceback (most recent call last):
-  File "<pyshell#51>", line 1, in <module>
-    for i in range(prog):
-TypeError: 'list' object cannot be interpreted as an integer
-for i in range prog:
-    print (i)
-    
-SyntaxError: invalid syntax
-
 for i in prog:
     print(i)
 
@@ -197,10 +179,6 @@ True
 False
 False
 
-for i in name:
-    if i.startswith('c')
-    
-SyntaxError: expected ':'
 for i in name:
     if i.startswith('c'):
         print(i)
@@ -242,14 +220,6 @@ for i in name:
         print(i)
     elif i.endswith('e'):
         print(i)
-    elif i.endswith('o')
-    
-SyntaxError: expected ':'
-for i in name:
-    if i.endswith('a'):
-        print(i)
-    elif i.endswith('e'):
-        print(i)
     elif i.endswith('o'):
         print(i)
     elif i.endswith('i'):
@@ -262,7 +232,9 @@ creta
 cruze
 santro
 santafe
+
 # there is another best ways to do the same
+
 vowels =['a','e','i','o','u']
 for i in name:
     for j in vowels:
@@ -277,11 +249,7 @@ santafe
 
 # In some other way
 for i in name:
-    if i.endswith('a'or'e'or'i'or'o'or'u')
-    
-SyntaxError: expected ':'
-for i in name:
-    if i.endswith('a'or'e'or'i'or'o'or'u'):
+    if i.endswith('a'or'e'or'i'or'o'or'u'): # will resturn only one value if satisfied
         print(i)
 
         
@@ -293,22 +261,6 @@ creta
 # checks the every single time and runs the loop till the condition is TRUE
 # It is mandate to give the incremental / decremental value in while loop
 
-a = 5
-while a>0:
-    print(i)
-    a-=1
-
-    
-santafe
-santafe
-santafe
-santafe
-santafe
-while a > 0:
-    print(a)
-    a-=1
-
-    
 a = 6
 while a > 0:
     print(a)
@@ -364,22 +316,8 @@ for i in range(8):
         print(i,end =' ')   # Print next
         break
 
-    
 5 
-for i in range(8):
-    if i == 5:              # Compare first
-        break               
-        print(i,end =' ')   # Print next
 
-        
-
-for i in range(8):
-    if i == 5:          # Compare next
-        break
-    print(i,end =' ')   # Print first
-
-    
-0 1 2 3 4 
 for i in range(8):
     if i == 5:          # Compare first
         break
@@ -391,9 +329,6 @@ for i in range(8):
 #CONTINUE:
 
 #Display number from 1 to 10 and skip number 5 and 7
-for in range(1,11,1):
-    
-SyntaxError: invalid syntax
 for i in range(1,11,1):
     if i==5 or i==7:
         continue
@@ -415,16 +350,8 @@ name
 #Display name whose count is not exactly 5 using FCS
 for i in name:
     if len(i)==5:
-        print(i)
-
-        
-creta
-cruze
-for i in name:
-    if len(i)==5:
         continue
     print(i)
-
     
 ciaz
 santro
@@ -444,9 +371,7 @@ santafe
 
 #------------------------------------------------------
 for i in range (100):
-
     if i==60:
-        
         break
     print(f'age is {i} work hard')
 
